@@ -1,0 +1,23 @@
+{
+  "title": "Base L2 MEV Opportunity Dataset",
+  "description": "Real-time MEV opportunity data from Base L2 DEXs for quantitative strategy research",
+  "total_records": 100,
+  "sample_size": 20,
+  "generated": "2026-08-11",
+  "fields": [
+    "id",
+    "timestamp",
+    "pair",
+    "strategy",
+    "dex_buy",
+    "dex_sell",
+    "price_buy",
+    "price_sell",
+    "gas_cost_usd",
+    "profit_bps",
+    "latency_ms",
+    "profitable",
+    "block_number"
+  ],
+  "format": "json"
+}
